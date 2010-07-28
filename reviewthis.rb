@@ -55,6 +55,10 @@ get '/' do
   mustache :index
 end
 
+get '/googlehostedservice.html' do
+  'google5230868c541967d5'
+end
+
 # the meat
 post '/' do
   push = JSON.parse(params[:payload])
