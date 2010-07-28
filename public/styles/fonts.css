@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'EnigmaticRegular';
+	src: url('Enigma__2-webfont.eot');
+	src: local('☺'), url('Enigma__2-webfont.woff') format('woff'), url('Enigma__2-webfont.ttf') format('truetype'), url('Enigma__2-webfont.svg#webfontaQSO6lWd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EnigmaticItalic';
+	src: url('Enigma_2i-webfont.eot');
+	src: local('☺'), url('Enigma_2i-webfont.woff') format('woff'), url('Enigma_2i-webfont.ttf') format('truetype'), url('Enigma_2i-webfont.svg#webfont0FAvCvEi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EnigmaticBold';
+	src: url('EnigmaB_2-webfont.eot');
+	src: local('☺'), url('EnigmaB_2-webfont.woff') format('woff'), url('EnigmaB_2-webfont.ttf') format('truetype'), url('EnigmaB_2-webfont.svg#webfontv80fm70F') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InconsolataMedium';
+	src: url('Inconsolata-webfont.eot');
+	src: local('☺'), url('Inconsolata-webfont.woff') format('woff'), url('Inconsolata-webfont.ttf') format('truetype'), url('Inconsolata-webfont.svg#webfontAOsRw1AW') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

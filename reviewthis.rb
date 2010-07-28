@@ -52,7 +52,7 @@ end
 
 # test!
 get '/' do
-  "#reviewthis @github!"
+  mustache :index
 end
 
 # the meat
