@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>#reviewth.is @github</title>
+	
+	<link rel="stylesheet" href="/styles/fonts.css">
+	<link rel="stylesheet" href="/styles/reviewthis.css">
+	
+	<script src="/scripts/modernizr-1.5.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div>
+		<header>
+			<h1>reviewth.is</h1>
+			<p>a tiny tool to make using <a href="http://github.com/">GitHub</a> for code reviews a tiny bit easier</p>
+		</header>
+	
+		<code class="block">git commit -m ‘I just fixed that one really annoying bug. #reviewthis @jwelshiv @tonydewan fake@supermatter.com’</code>
+		
+		<div class="columns">
+			<h2>Huh?</h2>
+			<p>GitHub gives us almost everything we need to do code reviews. Commit, file and line level comments, comment notifications, plus everything else that makes the GitHub experience great. The only thing missing is an easy way to initiate a review. If I want my code to be reviewed, I’ve got to go to GitHub, get the URL (and any other info),  then compose an email to everyone I want to review it.</p>
+	
+			<h2>Do it!</h2>
+	
+			<p>We can make that a tiny bit easier:</p>
+			<ol>
+				<li>set <code>http://reviewth.is/</code> as the URL for your project’s <a href="http://help.github.com/post-receive-hooks/">Post-Recieve hook</a></li>
+				<li>any commit you want reviewed, add the <code>#reviewthis</code> hash plus any GitHub username<sup><a href="#footnotes">1</a></sup> or email address</li>
+				<li>Profit!<sup><a href="#footnotes">2</a></sup></li>
+			</ol>
+
+			<p class="sub">Don't trust us? <a href="http://github.com/supermatter/reviewthis">Roll your own!</a></p>
+
+			<ol class="footnotes">
+				<li>only GitHub usernames who have an email address on their public profile</li>
+				<li>profit not guaranteed</li>
+			</ol>
+		</div>
+		<footer>
+			<p>reviewth.is is lovingly provided by <a href="http://supermatter.com/">supermatter</a></p>
+		</footer>
+	</div>
+</body>
+</html>
