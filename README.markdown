@@ -25,3 +25,10 @@ Requirements
 Besides Sinatra, reviewthis requires [json](http://flori.github.com/json/),[mustache](http://github.com/defunkt/mustache), [pony](http://github.com/benprew/pony), and [octopussy](http://github.com/pengwynn/octopussy).
 
 *Note that the sendgrid add-on limits you to 200 messages per day.*
+
+TODO
+---
+
+1. update Pony to use gmail in production (http://scriptrunner.posterous.com/?tag=sinatraherokugmail) to send
+2. update the readme of the public reviewthis project to reference http://reviewth.is/
+3. profit!
